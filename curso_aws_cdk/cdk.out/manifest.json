@@ -1,0 +1,1493 @@
+{
+  "version": "14.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "Vpc": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Vpc.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/Vpc/Vpc01/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01F824461A",
+            "trace": [
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:384:25)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet1Subnet52644D7B",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:708:24)",
+              "new PublicSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:873:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:606:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet1RouteTable902FF084",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:724:23)",
+              "new PublicSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:873:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:606:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet1RouteTableAssociationF05BA358",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:729:9)",
+              "new PublicSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:873:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:606:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet1DefaultRoute0A463A3C",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:764:23)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:417:30",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:416:32)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet1/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet1EIPADD671CF",
+            "trace": [
+              "PublicSubnet.addNatGateway (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:893:27)",
+              "NatGatewayProvider.configureNat (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:82:33)",
+              "Vpc.createNatGateways (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:564:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:422:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet1/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet1NATGatewayEDCD7D54",
+            "trace": [
+              "PublicSubnet.addNatGateway (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:891:21)",
+              "NatGatewayProvider.configureNat (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:82:33)",
+              "Vpc.createNatGateways (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:564:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:422:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet2Subnet7A06BCF4",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:708:24)",
+              "new PublicSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:873:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:606:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet2RouteTableF1877DF3",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:724:23)",
+              "new PublicSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:873:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:606:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet2RouteTableAssociationAE879AA9",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:729:9)",
+              "new PublicSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:873:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:606:42",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet2DefaultRoute88033A37",
+            "trace": [
+              "PublicSubnet.addDefaultInternetRoute (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:764:23)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:417:30",
+              "Array.forEach (<anonymous>)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:416:32)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet2/EIP": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet2EIP007C998A",
+            "trace": [
+              "PublicSubnet.addNatGateway (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:893:27)",
+              "NatGatewayProvider.configureNat (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:82:33)",
+              "Vpc.createNatGateways (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:564:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:422:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PublicSubnet2/NATGateway": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PublicSubnet2NATGatewayB6FC88EC",
+            "trace": [
+              "PublicSubnet.addNatGateway (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:891:21)",
+              "NatGatewayProvider.configureNat (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:82:33)",
+              "Vpc.createNatGateways (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:564:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:422:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet1/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet1SubnetAA8F14B1",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:708:24)",
+              "new PrivateSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:913:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:611:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet1/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet1RouteTableAD63F47A",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:724:23)",
+              "new PrivateSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:913:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:611:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet1/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet1RouteTableAssociationC4B059F6",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:729:9)",
+              "new PrivateSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:913:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:611:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet1/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet1DefaultRouteFCFF198D",
+            "trace": [
+              "PrivateSubnet.addRoute (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:811:23)",
+              "NatGatewayProvider.configureSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:97:16)",
+              "NatGatewayProvider.configureNat (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:91:18)",
+              "Vpc.createNatGateways (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:564:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:422:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet2/Subnet": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet2SubnetAF389DF0",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:708:24)",
+              "new PrivateSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:913:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:611:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet2/RouteTable": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet2RouteTableF2ABD421",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:724:23)",
+              "new PrivateSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:913:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:611:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet2/RouteTableAssociation": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet2RouteTableAssociation2AC037D8",
+            "trace": [
+              "new Subnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:729:9)",
+              "new PrivateSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:913:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:611:43",
+              "Array.forEach (<anonymous>)",
+              "Vpc.createSubnetResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:590:32)",
+              "Vpc.createSubnets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:586:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:405:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/PrivateSubnet2/DefaultRoute": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01PrivateSubnet2DefaultRoute3CFCF704",
+            "trace": [
+              "PrivateSubnet.addRoute (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:811:23)",
+              "NatGatewayProvider.configureSubnet (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:97:16)",
+              "NatGatewayProvider.configureNat (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\nat.js:91:18)",
+              "Vpc.createNatGateways (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:564:18)",
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:422:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/IGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01IGWE5584F53",
+            "trace": [
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:409:25)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Vpc01/VPCGW": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Vpc01VPCGWF44E95B8",
+            "trace": [
+              "new Vpc (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\vpc.js:412:25)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Exports/Output{\"Fn::GetAtt\":[\"Vpc01F824461A\",\"DefaultSecurityGroup\"]}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputFnGetAttVpc01F824461ADefaultSecurityGroupB47B3935",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Exports/Output{\"Ref\":\"Vpc01PrivateSubnet1SubnetAA8F14B1\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefVpc01PrivateSubnet1SubnetAA8F14B1D2DB62B8",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Exports/Output{\"Ref\":\"Vpc01PrivateSubnet2SubnetAF389DF0\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefVpc01PrivateSubnet2SubnetAF389DF0CA6B8B79",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Exports/Output{\"Ref\":\"Vpc01PublicSubnet1Subnet52644D7B\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefVpc01PublicSubnet1Subnet52644D7B09B79E25",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Exports/Output{\"Ref\":\"Vpc01PublicSubnet2Subnet7A06BCF4\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefVpc01PublicSubnet2Subnet7A06BCF487C69B65",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Vpc/Exports/Output{\"Ref\":\"Vpc01F824461A\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefVpc01F824461A2A0E15F5",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "Vpc"
+    },
+    "Cluster": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Cluster.template.json",
+        "validateOnSynth": false
+      },
+      "dependencies": [
+        "Vpc"
+      ],
+      "metadata": {
+        "/Cluster/Cluster/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ClusterEB0386A7",
+            "trace": [
+              "new Cluster (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\cluster.js:79:25)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Cluster/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Cluster/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Cluster/Exports/Output{\"Ref\":\"ClusterEB0386A7\"}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ExportsOutputRefClusterEB0386A796A0E3FE",
+            "trace": [
+              "Stack.exportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stack.js:615:13)",
+              "createImportValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:138:39)",
+              "resolveValue (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:84:12)",
+              "Object.resolveReferences (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\refs.js:25:30)",
+              "Object.prepareApp (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\prepare-app.js:30:12)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:21:19)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "Cluster"
+    },
+    "Rds": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Rds.template.json",
+        "validateOnSynth": false
+      },
+      "dependencies": [
+        "Vpc"
+      ],
+      "metadata": {
+        "/Rds/databasePassword": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "databasePassword",
+            "trace": [
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/Rds/from 0.0.0.0_0:3306": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Rdsfrom000003306ABDC33FC",
+            "trace": [
+              "MutableImport.addIngressRule (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:57:13)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/Rds01/SubnetGroup/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Rds01SubnetGroup7C0866B6",
+            "trace": [
+              "new SubnetGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-rds\\lib\\subnet-group.js:24:29)",
+              "new DatabaseInstanceNew (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-rds\\lib\\instance.js:174:87)",
+              "new DatabaseInstanceSource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-rds\\lib\\instance.js:278:9)",
+              "new DatabaseInstance (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-rds\\lib\\instance.js:380:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/Rds01/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Rds014018A640",
+            "trace": [
+              "new DatabaseInstance (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-rds\\lib\\instance.js:383:26)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/rds-endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "rdsendpoint",
+            "trace": [
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/rds-password": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "rdspassword",
+            "trace": [
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Rds/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "Rds"
+    },
+    "Sns": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Sns.template.json",
+        "validateOnSynth": false
+      },
+      "metadata": {
+        "/Sns/ProductEventsTopic/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ProductEventsTopic2164919A",
+            "trace": [
+              "new Topic (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-sns\\lib\\topic.js:45:26)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Sns/ProductEventsTopic/leoneduardoperez@gmail.com/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ProductEventsTopicleoneduardoperezgmailcomAE9757B0",
+            "trace": [
+              "new Subscription (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-sns\\lib\\subscription.js:39:9)",
+              "Topic.addSubscription (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-sns\\lib\\topic-base.js:33:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Sns/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Sns/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "Sns"
+    },
+    "Service01": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "Service01.template.json",
+        "validateOnSynth": false
+      },
+      "dependencies": [
+        "Cluster",
+        "Rds",
+        "Vpc"
+      ],
+      "metadata": {
+        "/Service01/Service01LogGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Service01LogGroup102A8862",
+            "trace": [
+              "new LogGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-logs\\lib\\log-group.js:165:26)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/LB/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01LB2390F328",
+            "trace": [
+              "new BaseLoadBalancer (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\shared\\base-load-balancer.js:35:26)",
+              "new ApplicationLoadBalancer (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-load-balancer.js:28:9)",
+              "new ApplicationLoadBalancedServiceBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:55:89)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:22:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/LB/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01LBSecurityGroupEE7085B2",
+            "trace": [
+              "new SecurityGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:215:30)",
+              "new ApplicationLoadBalancer (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-load-balancer.js:34:56)",
+              "new ApplicationLoadBalancedServiceBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:55:89)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:22:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/LB/SecurityGroup/to Service01ALB01ServiceSecurityGroupF9ABDC99:8080": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01LBSecurityGrouptoService01ALB01ServiceSecurityGroupF9ABDC998080800D3CC8",
+            "trace": [
+              "SecurityGroup.addEgressRule (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:72:13)",
+              "SecurityGroup.addEgressRule (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:347:19)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:81:31",
+              "ReactiveList.forEachAndForever (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:226:13)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:80:51",
+              "ReactiveList.forEachAndForever (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:226:13)",
+              "Connections.allowTo (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:79:30)",
+              "Connections.allowFrom (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:112:31)",
+              "ApplicationListener.registerConnectable (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-listener.js:323:33)",
+              "ApplicationTargetGroup.registerConnectable (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-target-group.js:123:22)",
+              "Object.attachToApplicationTargetGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:323:29)",
+              "FargateService.attachToApplicationTargetGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:284:47)",
+              "ApplicationTargetGroup.addTarget (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-target-group.js:74:35)",
+              "ApplicationLoadBalancedFargateService.addServiceAsTarget (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:164:26)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:78:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/LB/PublicListener/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01LBPublicListener21E9450C",
+            "trace": [
+              "new BaseListener (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\shared\\base-listener.js:21:26)",
+              "new ApplicationListener (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-listener.js:32:9)",
+              "ApplicationLoadBalancer.addListener (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-load-balancer.js:74:26)",
+              "new ApplicationLoadBalancedServiceBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:67:38)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:22:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/LB/PublicListener/ECSGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01LBPublicListenerECSGroup8E5F9C1A",
+            "trace": [
+              "new TargetGroupBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\shared\\base-target-group.js:44:25)",
+              "new ApplicationTargetGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-target-group.js:26:9)",
+              "ApplicationListener.addTargets (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-listener.js:228:23)",
+              "new ApplicationLoadBalancedServiceBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:73:42)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:22:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/LoadBalancerDNS": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01LoadBalancerDNS71443EB4",
+            "trace": [
+              "new ApplicationLoadBalancedServiceBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:133:9)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:22:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/ServiceURL": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01ServiceURL8B1A7735",
+            "trace": [
+              "new ApplicationLoadBalancedServiceBase (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:134:9)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:22:9)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/TaskDef/TaskRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01TaskDefTaskRole9240B125",
+            "trace": [
+              "new Role (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:72:22)",
+              "new TaskDefinition (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\task-definition.js:97:43)",
+              "new FargateTaskDefinition (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\fargate\\fargate-task-definition.js:22:9)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:32:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/TaskDef/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01TaskDef2A307EF6",
+            "trace": [
+              "new TaskDefinition (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\task-definition.js:104:25)",
+              "new FargateTaskDefinition (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\fargate\\fargate-task-definition.js:22:9)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:32:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/TaskDef/ExecutionRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01TaskDefExecutionRoleD625C6B3",
+            "trace": [
+              "new Role (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:72:22)",
+              "FargateTaskDefinition.obtainExecutionRole (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\task-definition.js:340:35)",
+              "AwsLogDriver.bind (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\log-drivers\\aws-log-driver.js:48:69)",
+              "new ContainerDefinition (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\container-definition.js:114:50)",
+              "FargateTaskDefinition.addContainer (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\task-definition.js:265:16)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:45:51)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/TaskDef/ExecutionRole/DefaultPolicy/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01TaskDefExecutionRoleDefaultPolicy48058B36",
+            "trace": [
+              "new Policy (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-iam\\lib\\policy.js:56:26)",
+              "Role.addToPrincipalPolicy (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-iam\\lib\\role.js:209:34)",
+              "Function.addToPrincipal (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-iam\\lib\\grant.js:90:65)",
+              "LogGroup.grant (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-logs\\lib\\log-group.js:96:26)",
+              "LogGroup.grantWrite (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-logs\\lib\\log-group.js:88:21)",
+              "AwsLogDriver.bind (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\log-drivers\\aws-log-driver.js:48:23)",
+              "new ContainerDefinition (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\container-definition.js:114:50)",
+              "FargateTaskDefinition.addContainer (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\task-definition.js:265:16)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:45:51)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/Service/Service": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01Service9EFAFC8C",
+            "trace": [
+              "new BaseService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:142:25)",
+              "new FargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\fargate\\fargate-service.js:34:9)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:60:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/Service/SecurityGroup/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01ServiceSecurityGroup1DA64F7B",
+            "trace": [
+              "new SecurityGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:215:30)",
+              "FargateService.configureAwsVpcNetworkingWithSecurityGroups (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:531:31)",
+              "new FargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\fargate\\fargate-service.js:52:14)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:60:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/Service/SecurityGroup/from Service01ALB01LBSecurityGroupA6ED9E7A:8080": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01ServiceSecurityGroupfromService01ALB01LBSecurityGroupA6ED9E7A80804ECBCEE2",
+            "trace": [
+              "SecurityGroup.addIngressRule (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:57:13)",
+              "SecurityGroup.addIngressRule (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\security-group.js:307:19)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:106:31",
+              "ReactiveList.forEachAndForever (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:226:13)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:105:51",
+              "ReactiveList.forEachAndForever (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:226:13)",
+              "Connections.allowFrom (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ec2\\lib\\connections.js:104:30)",
+              "ApplicationListener.registerConnectable (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-listener.js:323:33)",
+              "ApplicationTargetGroup.registerConnectable (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-target-group.js:123:22)",
+              "Object.attachToApplicationTargetGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:323:29)",
+              "FargateService.attachToApplicationTargetGroup (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:284:47)",
+              "ApplicationTargetGroup.addTarget (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-elasticloadbalancingv2\\lib\\alb\\application-target-group.js:74:35)",
+              "ApplicationLoadBalancedFargateService.addServiceAsTarget (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\base\\application-load-balanced-service-base.js:164:26)",
+              "new ApplicationLoadBalancedFargateService (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs-patterns\\lib\\fargate\\application-load-balanced-fargate-service.js:78:14)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:58",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "Kernel._create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8432:34)",
+              "Kernel.create (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8173:29)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/Service/TaskCount/Target/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01ServiceTaskCountTarget4149107A",
+            "trace": [
+              "new ScalableTarget (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-applicationautoscaling\\lib\\scalable-target.js:41:26)",
+              "new BaseScalableAttribute (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-applicationautoscaling\\lib\\base-scalable-attribute.js:34:23)",
+              "new ScalableTaskCount (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\scalable-task-count.js:19:9)",
+              "FargateService.autoScaleTaskCount (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\base-service.js:383:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/ALB01/Service/TaskCount/Target/Service01AutoScaling/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "ALB01ServiceTaskCountTargetService01AutoScalingAD2F8C72",
+            "trace": [
+              "new TargetTrackingScalingPolicy (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-applicationautoscaling\\lib\\target-tracking-scaling-policy.js:26:26)",
+              "ScalableTarget.scaleToTrackMetric (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-applicationautoscaling\\lib\\scalable-target.js:106:16)",
+              "ScalableTaskCount.doScaleToTrackMetric (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-applicationautoscaling\\lib\\base-scalable-attribute.js:65:21)",
+              "ScalableTaskCount.scaleOnCpuUtilization (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\aws-ecs\\lib\\base\\scalable-task-count.js:43:22)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:22:30)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ],
+        "/Service01/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\metadata-resource.js:30:35)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:139:9",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:200:9)",
+              "visit (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:197:9)",
+              "injectMetadataResources (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:128:5)",
+              "Object.synthesize (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\private\\synthesis.js:17:5)",
+              "App.synth (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-kernel-g64fN3\\node_modules\\@aws-cdk\\core\\lib\\stage.js:100:41)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:134",
+              "Kernel._wrapSandboxCode (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8860:24)",
+              "C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:107",
+              "Kernel._ensureSync (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8841:28)",
+              "Kernel.invoke (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:8248:34)",
+              "KernelHost.processRequest (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9757:36)",
+              "KernelHost.run (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9720:22)",
+              "Immediate._onImmediate (C:\\Users\\Leon\\AppData\\Local\\Temp\\jsii-java-runtime8831624277883059968\\lib\\program.js:9721:46)",
+              "processImmediate (internal/timers.js:464:21)"
+            ]
+          }
+        ]
+      },
+      "displayName": "Service01"
+    }
+  }
+}
